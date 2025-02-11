@@ -1,0 +1,35 @@
+
+body {
+    background-color: #db543c;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#navbar .nav-link {
+    color: white;
+}
+
+#navbar .nav-link:hover {
+    color: #0d0b0d;
+}
+
+#navbar .navbar-brand {
+    color: #0d0b0d;
+    font-size: 1.5rem;
+}
+
+#title-head {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #title-head h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
